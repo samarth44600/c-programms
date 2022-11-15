@@ -9,7 +9,7 @@ int main(){
     // scanf("%d",&choice);
 
 
-// switiching the choice
+
     switch (choice)
     {
     case '+':
