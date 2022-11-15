@@ -8,6 +8,8 @@ int main(){
     // printf("Enter your choice: ");
     // scanf("%d",&choice);
 
+
+// switiching the choice
     switch (choice)
     {
     case '+':
