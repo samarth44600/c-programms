@@ -1,11 +1,10 @@
 #include<stdio.h>
-
-int main()
+#include<conio.h>
+void main()
 {
     char str[50];   // char array of size 50
-    printf("Enter your complete name:\n\n\n");
-
+    printf("Enter your complete name: ");
     gets(str);
-    printf("\n\nWelcome to C Programming  %s\n\n\n", str);
-    return 0;
+    printf("\nWelcome to C Programming  %s", str);
+    getch();
 }

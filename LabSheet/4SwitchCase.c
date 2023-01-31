@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 int main() {
     char operation;
@@ -28,5 +29,5 @@ int main() {
             printf("Error! operator is not correct");
     }
 
-    return 0;
+    getch();
 }

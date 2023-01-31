@@ -1,8 +1,9 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
     int number;
-    printf("Please enter a number:\n");
+    printf("Please enter a number: ");
     scanf("%d",&number);
     /*
         For single statements we can skip the curly brackets
@@ -14,5 +15,5 @@ int main()
     else
         printf("Number is greater than 100!\n");
 
-    return 0;
+    getch();
 }
