@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
     char ch;
     printf("Input a Character :  ");
@@ -17,11 +18,11 @@ int main()
         case 'O':
         case 'u':
         case 'U':
-            printf("\n\n%c is a vowel.\n\n", ch);
+            printf("\n%c is a vowel.", ch);
             break;
         default:
-            printf("%c is not a vowel.\n\n", ch);
+            printf("\n%c is not a vowel.", ch);
     }
-    printf("\n\n\t\t\tCoding is Fun !\n\n\n");
-    return 0;
+
+    getchar();   
 }

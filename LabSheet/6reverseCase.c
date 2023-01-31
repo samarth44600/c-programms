@@ -1,15 +1,15 @@
 #include<stdio.h>
+#include<conio.h>
 #include<ctype.h> // to use system defined function islower & toupper
 
-int main()
+void main()
 {
     char alphabet;
     printf("Enter an alphabet : ");
-    putchar('\n');  // to move to next Line
 
     alphabet=getchar();
 
-    printf("\n\nReverse case of %c is :  ",alphabet);
+    printf("\nReverse case of %c is :  ",alphabet);
 
     if(islower(alphabet))
         putchar(toupper(alphabet));
@@ -18,5 +18,5 @@ int main()
         // must be an uppercase character
         printf("%c",tolower(alphabet)) ;
 
-    return 0;
+    getch();
 }
