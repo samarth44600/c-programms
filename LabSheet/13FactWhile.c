@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
    int n;
@@ -11,4 +12,5 @@ void main()
        i--;
    }
    printf("Factorial of %d is %ld", n , fact);
+    getch();
 }
