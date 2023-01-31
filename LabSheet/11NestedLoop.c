@@ -1,8 +1,9 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
-    printf("\n\nNested loops are usually used to print a pattern in c. \n\n");
-    printf("\n\nThey are also used to print out the matrix using a 2 dimensional array. \n\n");
+    printf("Nested loops are usually used to print a pattern in c. ");
+    printf("\nThey are also used to print out the matrix using a 2 dimensional array. ");
 
     int i,j,k;
     printf("\n\nOutput of the nested loop is :\n\n");
@@ -14,5 +15,5 @@ int main()
 
         printf("\n");
     }
-    return 0;
+    getch();
 }

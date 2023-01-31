@@ -1,16 +1,17 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
     /* 
         always declare the variables before using them 
     */
     int i = 0;  // declaration and initialization at the same time
 
-    printf("\nPrinting numbers using while loop from 0 to 9\n\n");
+    printf("Printing numbers using while loop from 0 to 5 (i.e i<5)\n");
     /* 
-        while i is less than 10 
+        while i is less than 5 
     */
-    while(i<10)
+    while(i<5)
     {
         printf("%d\n",i);
 
@@ -20,5 +21,5 @@ int main()
         */
         i++;    // same as i=i+1;
       }
-    return 0;
+    getch();
 }
