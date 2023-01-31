@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <conio.h>
 int main()
 {
   char str[1000], rev[1000];
   int i, j, count = 0;
+  printf("Enter string: ");
   scanf("%s", str);
   printf("\nString Before Reverse: %s", str);
   //finding the length of the string
@@ -20,4 +22,5 @@ int main()
   }
 
   printf("\nString After Reverse: %s", rev);
+  getch();
 }

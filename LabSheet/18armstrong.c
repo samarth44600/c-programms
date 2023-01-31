@@ -1,9 +1,10 @@
 #include<stdio.h>
 #include<math.h>
+#include<conio.h>
 int main()
 {
     int n,sum,i,t,a;
-    printf("\n\n\nThe Armstrong numbers in between 1 to 500 are : \n\n\n");
+    printf("\nThe Armstrong numbers in between 1 to 500 are : ");
 
     for(i = 1; i <= 500; i++)
     {
@@ -16,7 +17,8 @@ int main()
             t = t/10;
         }
         if(sum == i)
-        printf("\n\t\t\t%d", i);
+        printf("\n->%d", i);
     }
-    return 0;
+    getch();
+    
 }

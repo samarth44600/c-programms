@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
     int n, i;
@@ -6,12 +7,12 @@ int main()
 
     printf("Enter number of elements:  ");
     scanf("%d", &n);
-    printf("\n\n\nEnter %d elements\n\n", n);
+    printf("\nEnter %d elements: ", n);
     for(i = 0; i < n; i++)
     {
         scanf("%f", &x);
         sum += x;
     }
-    printf("\n\n\nAverage of the entered numbers is =  %f", (sum/n));
-    return 0;
+    printf("\nAverage of the entered numbers is =  %f", (sum/n));
+    getch();
 }
