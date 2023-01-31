@@ -5,8 +5,7 @@ void fibonacci(int num);
 void main()
 {
     int num = 0;
-    clrscr();
-    printf("Enter number of terms\t");
+    printf("Enter number of terms: ");
     scanf("%d", &num);
     fibonacci(num);
     getch();
