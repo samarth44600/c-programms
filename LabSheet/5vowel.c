@@ -24,5 +24,5 @@ void main()
             printf("\n%c is not a vowel.", ch);
     }
 
-    getchar();   
+    getch();   
 }

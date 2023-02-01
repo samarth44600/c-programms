@@ -16,7 +16,5 @@ consequently, when i equals 10, the loop breaks. i is updated before the conditi
      }
     printf("\n\The value of i after exiting the loop is %d", i);
     printf("\n For loop condition checks the conditional statement before it loops again.");
-    printf("\nConsequently, when i equals 10, the loop breaks.");
-    printf("\ni is updated before the condition is checked- hence the value of i after exiting the loop is 10 .");
     getch();
 }

@@ -1,26 +1,21 @@
+// write a c-programm to reverse a string
+
 #include <stdio.h>
+#include <string.h>
 #include <conio.h>
+
 int main()
 {
-  char str[1000], rev[1000];
-  int i, j, count = 0;
-  printf("Enter string: ");
-  scanf("%s", str);
-  printf("\nString Before Reverse: %s", str);
-  //finding the length of the string
-  while (str[count] != '\0')
-  {
-    count++;
-  }
-  j = count - 1;
-
-  //reversing the string by swapping
-  for (i = 0; i < count; i++)
-  {
-    rev[i] = str[j];
-    j--;
-  }
-
-  printf("\nString After Reverse: %s", rev);
-  getch();
+    char str[100];
+    int i, len;
+    printf("Enter a string: ");
+    gets(str);
+    len = strlen(str);
+    printf("Reverse of the string: ");
+    for(i=len-1; i>=0; i--)
+    {
+        printf("%c", str[i]);
+    }
+    getch();
+    return 0;
 }
