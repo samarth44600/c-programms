@@ -16,7 +16,8 @@ void main()
 
     else 
         // must be an uppercase character
-        printf("%c",tolower(alphabet)) ;
+        // printf("%c",tolower(alphabet)) ;
+        putchar(tolower(alphabet));
 
     getch();
 }

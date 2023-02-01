@@ -11,7 +11,7 @@ void main()
     {
         printf("\t\t\t\t");
         for(j = 0; j < 5; j++)
-        printf("* ");
+            printf("* ");
 
         printf("\n");
     }
