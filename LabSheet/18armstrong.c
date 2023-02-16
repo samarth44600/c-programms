@@ -8,7 +8,7 @@ int main()
 
     for(i = 1; i <= 500; i++)
     {
-        t = i;  // as we need to retain the original number
+        t = i;  // as we need to retain the original num
         sum = 0;
         while(t != 0)
         {
