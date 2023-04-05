@@ -1,0 +1,20 @@
+John Smith; 50,000; 123 Main St; Accounting
+Emily Johnson; 60,000; 456 Elm St; Marketing
+Michael Davis; 70,000; 789 Oak St; Sales
+Sarah Thompson; 55,000; 234 Maple St; Human Resources
+Robert Wilson; 65,000; 567 Pine St; IT
+Samantha Garcia; 75,000; 890 Cedar St; Finance
+David Lee; 80,000; 1234 Birch St; Operations
+Jennifer Hernandez; 65,000; 5678 Oak St; Marketing
+James Rodriguez; 70,000; 9012 Maple St; Sales
+Amanda Martinez; 75,000; 3456 Pine St; Finance
+Kevin Kim; 85,000; 7890 Cedar St; IT
+Michelle Nguyen; 90,000; 12345 Birch St; Operations
+Andrew Brown; 60,000; 67890 Oak St; Accounting
+Jessica Jones; 70,000; 123456 Maple St; Human Resources
+William Davis; 80,000; 789012 Pine St; IT
+Elizabeth Garcia; 90,000; 345678 Cedar St; Finance
+Daniel Lee; 95,000; 901234 Birch St; Operations
+Ashley Hernandez; 75,000; 567890 Oak St; Marketing
+Christopher Rodriguez; 80,000; 1234567 Maple St; Sales
+Stephanie Martinez; 85,000; 890123 Pine St; Finance
